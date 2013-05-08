@@ -1,9 +1,11 @@
 exports.variables = {
     botname: "Bot name: "
   , botname_upper: function(responses, done) {
-      responses.botname_upcase = responses.botname.toUpperCase();
+      responses.botname_upper = responses.botname.toUpperCase();
+      done();
     }
   , botname_lower: function(responses, done) {
-      responses.botname_upcase = responses.botname.toLowerCase();
+      responses.botname_lower = responses.botname.toLowerCase();
+      done();
     }
 };
