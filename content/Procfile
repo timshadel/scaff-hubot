@@ -1,0 +1,1 @@
+web: bin/{{botname_lower}} -a campfire -n {{botname}}
